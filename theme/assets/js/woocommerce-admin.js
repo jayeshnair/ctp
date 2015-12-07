@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){a(".wc-update-now").on("click",function(b){b.preventDefault();a.ajax({url:yit_wc.ajaxurl,data:"action=add_myaccount_pages&wpnonce="+yit_wc.wpnonce,type:"POST",error:function(a,b,c){console.log(a.responseText)}})})});

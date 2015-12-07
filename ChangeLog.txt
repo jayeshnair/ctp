@@ -1,0 +1,695 @@
+------------------ VER 1.6.0 - Released on Feb 13, 2015 -----------------
+Added: Woocommerce 2.3.3 support
+Added: Yith Woocommerce Wishlist 2.0 support
+Fixed: Sku issue on variable product
+
+ChangeLog.txt
+style.css
+images/jquery.selectBox-arrow.png
+languages//*.*
+theme/assets/images/ajax-loader.gif
+theme/assets/images/ajax-loader@2x.gif
+theme/assets/js/quick-view.js
+theme/assets/js/unminified/quick-view.js
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+theme/assets/js/woocommerce_2.3.js
+theme/woocommerce.php
+theme/yit/Submenu/Tabs/Theme_option/Colors_Buttons.php
+tyrion-child/style.css
+tyrion-child/woocommerce_2.2.x
+tyrion-child/woocommerce_2.2.x/style.css
+woocommerce/cart/cart-shipping.php
+woocommerce/cart/cart-totals.php
+woocommerce/cart/cart.php
+woocommerce/checkout/form-checkout.php
+woocommerce/checkout/payment.php
+woocommerce/checkout/review-order.php
+woocommerce/global/breadcrumb.php
+woocommerce/myaccount/form-lost-password.php
+woocommerce/single-product-reviews.php
+woocommerce/single-product/add-to-cart/variable.php
+woocommerce/single-product/meta.php
+woocommerce/single-product/product-thumbnails.php
+woocommerce/single-product/rating.php
+woocommerce/style.css
+woocommerce/wishlist.css
+woocommerce_2.2.x/*.*
+
+------------------ VER 1.5.0 - Released on Jan 15, 2015 -----------------
+Added: Wordpress 4.1 support
+Added: Woocommerce 2.2.10 support
+Added: Revolution Slider 4.6.5 support
+Added: Multiple choice categories for "Products Tabs" and "Products Slider" shortcodes
+Added: Linkedin button to share shortcode
+Added: Og:type support
+Fixed: Wpml Compatibility
+Fixed: Testimonial slider responsive issue inside parallax
+
+UPDATED
+
+ChangeLog.txt
+style.css
+core/assets/css/panel.css
+core/assets/css/shortcodes.css
+core/functions-template.php
+core/templates/admin/tinymce/lightbox.php
+core/yit/Shortcodes.php
+css/responsive.css
+images/icons/socials-fade-small/socials-fade-small.png
+languages/default.po
+languages/yit.pot
+theme/assets/css/shortcodes.css
+theme/assets/css/widgets.css
+theme/functions-theme.php
+theme/hooks.php
+theme/plugins/revslider.zip
+theme/shortcodes-woocommerce.php
+theme/templates/shortcodes/products_slider.php
+theme/templates/shortcodes/share.php
+theme/templates/shortcodes/social.php
+theme/templates/sliders/revolution-slider/config.php
+tyrion-child/style.css
+woocommerce/cart/cart.php
+woocommerce/checkout/*.*
+woocommerce/content-single-product.php
+woocommerce/global/breadcrumb.php
+woocommerce/myaccount/form-change-password.php
+woocommerce/myaccount/form-login.php
+woocommerce/myaccount/form-lost-password.php
+woocommerce/myaccount/my-address.php
+woocommerce/myaccount/my-orders.php
+woocommerce/single-product-reviews.php
+woocommerce/single-product/add-to-cart/*.*
+woocommerce/single-product/product-attributes.php
+woocommerce/single-product/product-image-magnifier.php
+woocommerce/single-product/product-image.php
+woocommerce/single-product/product-thumbnails-magnifier.php
+woocommerce/single-product/product-thumbnails.php
+woocommerce/single-product/up-sells.php
+woocommerce/style.css
+
+
+------------------ VER 1.4.9 - Released on Nov 28, 2014 -----------------
+Updated: Revolution Slider 4.6.4
+Updated: Sample Data
+Fixed: Woocommerce 2.2.8 register issue
+
+UPDATED
+
+ChangeLog.txt
+style.css
+languages/*.*
+theme/assets/sample-data/tyrion.gz
+theme/plugins/revslider.zip
+theme/templates/sliders/revolution-slider/config.php
+tyrion-child/style.css
+woocommerce/checkout/form-register.php
+woocommerce/myaccount/form-login.php
+woocommerce/single-product/add-to-cart/variable-wccl.php
+
+------------------ VER 1.4.8 - Released on Nov 13, 2014 -----------------
+Added: Woocommerce 2.2.8 support
+Added: Favicon mobile devices option
+Added: Revolution Slider 4.6.3 support
+Updated: Yith Woocommerce Colors and Labels Variations plugin to 1.1.2
+Updated: Yith Woocommerce Hide Price plugin to 1.1.1
+Fixed: Image.php issue with W3 Total Cache plugin
+Fixed: Product short description appear at the top of the page. The cause was the og:description tag.
+Fixed: Testimonials shortcode without thumbnails and option "Link to testimonial detail page"
+Fixed: Checkout Form login, it show up even if the user is logged in
+Fixed: add to cart message doesn't visible on quick view
+Fixed: Shortcodes Lightbox 404 error
+Fixed: Url SSl issue for custom.css and style.css
+Fixed: Contact form lose values after a submit when some errors are detected
+
+UPDATED
+
+ChangeLog.txt
+style.css
+core/functions-template.php
+core/lib/vendors/recaptcha/recaptchalib.php
+core/templates/admin/tinymce/lightbox.php
+core/yit/Image.php
+core/yit/Submenu/Tabs/Theme_option/General_Settings.php
+core/yit/TinyMCE.php
+languages/*.*
+theme/assets/css/shortcodes.css
+theme/assets/sample-data/tyrion.gz
+theme/functions-template.php
+theme/functions-theme.php
+theme/plugins.php
+theme/plugins/revslider.zip
+theme/plugins/yith-woocommerce-colors-labels-variations.zip
+theme/plugins/yith-woocommerce-hide-price.zip
+theme/templates/header/head.php
+theme/templates/shortcodes/testimonials.php
+theme/templates/sliders/revolution-slider/config.php
+theme/woocommerce.php
+theme/yit/Contact_Form.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_details_page.php
+tyrion-child/style.css
+woocommerce/checkout/form-login.php
+woocommerce/content-single-product.php
+woocommerce/myaccount/form-login.php
+woocommerce/single-product-reviews.php
+woocommerce/single-product/add-to-cart/simple.php
+woocommerce/single-product/add-to-cart/variable-wccl.php
+woocommerce/single-product/add-to-cart/variable.php
+
+------------------ VER 1.4.7 - Released on Oct 14, 2014 -----------------
+Added: Woocommerce 2.2.6 support
+Updated: All Around Slider plugin
+
+UPDATED:
+ChangeLog.txt
+style.css
+theme/plugins/all-around-wordpress-content-slider-carousel.zip
+tyrion-child/style.css
+
+------------------ VER 1.4.6 - Released on Oct 06, 2014 -----------------
+Fixed: YIW links problem
+
+UPDATED:
+ChangeLog.txt
+style.css
+sistina-child/style.css
+theme/functions-theme.php
+
+------------------ VER 1.4.5 - Released on Sep 26, 2014 -----------------
+Fixed: "The settings of this image size have been disabled because its values are being overwritten by a filter." because of new WooCommerce 2.2.x
+Fixed: "shop_featured_image_size" added on image size list
+
+UPDATED
+
+ChangeLog.txt
+style.css
+languages/*.*
+theme/woocommerce.php
+tyrion-child/style.css
+tyrion-child/woocommerce_2.1.x/style.css
+woocommerce/checkout/review-order.php
+woocommerce/single-product/product-image.php
+
+------------------ VER 1.4.4 - Released on Sep 17, 2014 -----------------
+Added: Woocommerce 2.2.3 support
+Fixed: Section blog shortcode, category param doesn't work
+
+UPDATED
+
+ChangeLog.txt
+style.css
+languages/*.*
+theme/templates/shortcodes/section-blog.php
+theme/woocommerce.php
+tyrion-child/style.css
+woocommerce/checkout/form-shipping.php
+woocommerce/loop/pagination.php
+woocommerce/myaccount/my-address.php
+woocommerce/myaccount/my-orders.php
+
+
+------------------ VER 1.4.3 - Released on Sep 15, 2014 -----------------
+Added: Woocommerce 2.2.2 support
+
+UPDATED:
+
+ChangeLog.txt
+style.css
+theme/woocommerce.php
+tyrion-child/style.css
+tyrion-child/woocommerce_2.1.x
+tyrion-child/woocommerce_2.1.x/style.css
+woocommerce/checkout/form-checkout.php
+woocommerce/checkout/form-shipping.php
+woocommerce/global/breadcrumb.php
+woocommerce/global/wrapper-end.php
+woocommerce/loop/pagination.php
+woocommerce/myaccount/my-address.php
+woocommerce/myaccount/my-orders.php
+woocommerce_2.1.x/*.*
+
+------------------ VER 1.4.2 - Released on Sep 6, 2014 -----------------
+Added: Wordpress 4.0 support
+Added: Filter on quick view to be able to hide the category navigation. The filter is named 'yit_remove_quick_view_og_close_nav'
+
+------------------ VER 1.4.1 - Released on Sep 2, 2014 -----------------
+Updated: Revolution Slider to version 4.6.0. This version resolve important vulnerabilities issues.
+
+------------------ VER 1.4.0 - Released on August 17, 2014 -----------------
+Fixed: New Google maps urls
+Fixed: Button icon shortcode target
+Fixed: Safari Responsive Parallax
+Fixed: Fixed header z-index
+Fixed: Background color in responsive menu
+Fixed: _sendEmail function problem
+Fixed: Limited font sizes
+Fixed: Color and Labels Variations issue generate javascript error after first selection
+Fixed: Incorrect pagination on show_products shortcode
+Fixed: Incorrect image size for og:image tag, that prevent facebook to show the image when the post is shared
+Fixed: Incorrect content for view order on my-account page
+Fixed: Social Share option on single blog post always on for big layout
+Fixed: Lightbox gallery on single product page
+Fixed: active status for button "View cart", after you add to cart a product to cart
+Fixed: Mainteneance Mode user roles control panel not showed correctly
+Fixed: Yit Wishlist compatibility
+Fixed: Contact Form anchor after submit
+Fixed: Tabs Titles were not translated
+Fixed: Widget Text Image and Icon Text did not translate the text
+Fixed: Form "Lost Password" did not show messages after submit
+Fixed: Checkout order review multistep layout
+Fixed: Bookmark button hided where is not supported
+Fixed: Cross Sells products layout was wrong in cart page
+Fixed: Image menu-shadow not found on console. No longer exists on wordpress
+Fixed: Double spinner for number input element on firefox
+Fixed: Contact Form menu disappear on admin menu if other plugin use the same position number, like CF7
+Fixed: Google Rich Snippets
+Added: Target attribute on Teaser shortcode
+Added: Support to WooCommerce 2.1.12
+Added: Filter for the shortcode products categories query args. The filter is named yit_sc_products_categories_query_args
+Added: Filter for the shortcode product categories slider query args. The filter is named yit_sc_products_cat_slider_args
+Added: reCaptcha feature in Contact Form
+Added: Show or hide wp admin bar for customers
+Added: Redirect to checkout after add to cart option on Shop General
+Updated: Revolution Slider 4.6.0
+Removed: Tags custom post type and taxonomies from wpml-config.xml
+
+UPDATED
+
+ChangeLog.txt
+my-account.php
+style.css
+wpml-config.xml
+core/lib/vendors/recaptcha
+core/lib/vendors/recaptcha/recaptchalib.php
+core/yit/Contact_Form.php
+core/templates/shortcodes/button_icon.php
+core/lib/vendors/recaptcha
+core/lib/vendors/recaptcha/recaptchalib.php
+core/yit/Contact_Form.php
+core/yit/Submenu/Tabs/Theme_option/Typography_General.php
+core/yit/CPT_Unlimited.php
+core/assets/css/panel.css
+core/templates/admin/panel/menu.php
+core/yit/Submenu/Tabs/Theme_option/Pages_Typography.php
+core/yit/Submenu/Tabs/Theme_option/Typography_Navigation.php
+core/widgets/icon_text.php
+core/functions-template.php
+core/yit/Google_font.php
+core/lib/yit/Type/Types/Connectedlist.php
+js/jquery.custom.js
+languages/default.po
+theme/assets/js/woocommerce.js
+theme/functions-theme.php
+theme/hooks.php
+theme/panel/theme-options/general-settings.php
+theme/templates/header/map.php
+theme/yit/Contact_Form.php
+theme/templates/header/page-meta.php
+theme/plugins/revslider.zip
+theme/woocommerce.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_General_settings.php
+theme/templates/sliders/elastic/slider.php
+theme/templates/sliders/flexslider/slider.php
+theme/templates/sliders/revolution-slider/slider.php
+theme/templates/sliders/rotating/slider.php
+theme/templates/sliders/thumbnails/slider.php
+theme/panel/theme-options/colors-header.php
+theme/panel/theme-options/testimonials-typography.php
+theme/panel/theme-options/typography-navigation.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Typography.php
+theme/shortcodes.php
+theme/templates/shortcodes/teaser.php
+theme/templates/shortcodes/share.php
+theme/templates/sliders/parallax/slider.php
+theme/templates/blog/big/markup.php
+theme/widgets/text_image.php
+theme/assets/js/unminified/woocommerce.js
+theme/plugins/yith-woocommerce-colors-labels-variations.zip
+theme/templates/shortcodes/show_products.php
+theme/shortcodes-woocommerce.php
+theme/templates/shortcodes/products_categories_slider.php
+theme/templates/shortcodes/products_categories.php
+tyrion-child/style.css
+tyrion-child/cache/google_fonts.json
+woocommerce/single-product/tabs/tabs.php
+woocommerce/single-product/tabs/info.php
+woocommerce/cart/cart-empty.php
+woocommerce/cart/cart-shipping.php
+woocommerce/cart/cart-totals.php
+woocommerce/cart/cart.php
+woocommerce/cart/mini-cart.php
+woocommerce/cart/shipping-calculator.php
+woocommerce/checkout/form-login.php
+woocommerce/checkout/review-order.php
+woocommerce/content-product.php
+woocommerce/content-product_cat.php
+woocommerce/global/sidebar.php
+woocommerce/global/wrapper-start.php
+woocommerce/loop/pagination.php
+woocommerce/myaccount/form-login.php
+woocommerce/myaccount/my-orders.php
+woocommerce/single-product/price.php
+woocommerce/single-product/product-image.php
+woocommerce/single-product/product-thumbnails.php
+woocommerce/single-product/related.php
+woocommerce/single-product-reviews.php
+woocommerce/style.css
+woocommerce/content-single-product.php
+woocommerce/single-product/review.php
+woocommerce/checkout/form-checkout-multistep.php
+woocommerce/myaccount/form-lost-password.php
+woocommerce/myaccount/my-account.php
+
+
+------------------ VER 1.3.0 - Released on Apr 17, 2014 -----------------
+Fixed: Double Compare/Wishlist in single-product when catalog mode is ON
+Added: Support to WordPress 3.9
+Added: Support to Woocommerce 2.1.7
+
+UPDATED
+core/lib/yit/Type/Types/Textareaeditor.php
+my-account.php
+theme/woocommerce.php
+tyrion-child/style.css
+woocommerce/single-product/add-to-cart/grouped.php
+woocommerce/content-single-product.php
+woocommerce_2.0.x/content-single-product.php
+woocommerce/style.css
+js/jquery.custom.js
+
+------------------ VER 1.2.5 - Released on Mar 21, 2014 -----------------
+Fixed: Don't show related products on single product page
+Fixed: Required checkbox on contact form
+Fixed: Parallax Shortcode
+Fixed: Zoom magnifier position
+Fixed: Wrong dimension of the images after reset theme
+Fixed: On\Off 'Category Title' from Theme Options
+Fixed: Missing category for Testimonial
+Fixed: Select payment method
+Fixed: Don't change label of 'Add to cart' button
+Fixed: Change the footer icon from sprite to single
+Fixed: Responsive Menu
+Fixed: Child thumbnail
+Fixed: Product slider
+Fixed: Added Customer and Shop Manager roles in Maintenance Mode options
+
+UPDATED
+core/yit/CPT_Unlimited.php
+core/yit/Portfolio.php
+core/yit/Testimonial.php
+core/yit/functions-core.php
+js/responsive.jsstyle.css
+theme/woocommerce.php
+theme/assets/images/menu/icons-custom-air.png
+theme/assets/images/menu/icons-custom-baloon.png
+theme/assets/images/menu/icons-custom-box.png
+theme/assets/images/menu/icons-custom-contact.png
+theme/assets/images/menu/icons-custom-doc.png
+theme/assets/images/menu/icons-custom-money.png
+theme/plugins/revslider.zip
+theme/templates/shortcodes/parallax.php
+theme/yit/Contact_Form.php
+theme/widgets/portfolio_categories.php
+woocommerce/content-product_cat.php
+woocommerce/style.css
+woocommerce/global/breadcrumb.php
+woocommerce/global/page-meta.php
+woocommerce/single-product/product-image-magnifier.php
+woocommerce/single-product/related.php
+woocommerce/single-product/add-to-cart/grouped.php
+woocommerce/single-product/add-to-cart/simple.php
+woocommerce/single-product/add-to-cart/variable-wccl.php
+woocommerce/single-product/add-to-cart/variable.php
+woocommerce_2.0.x/single-product/product-image-magnifier.php
+wpml-config.xml
+style.css
+
+
+------------------ VER 1.2.4 - Released on Feb 28, 2014 -----------------
+Added: Compatibility to Woocommerce 2.1.3
+Fixed: Dropdownmenu in Android Tablet Landscape
+Fixed: Parallax Slider Fix
+Fixed: Shipping calculator SelectBox in Woocommerce 2.1.x
+Fixed: Fix Spinner Store in Woocommerce 2.1.x
+
+UPDATED
+js/jquery.custom.js
+js/responsive.js
+style.css
+tyrion-child/style.css
+theme/templates/shortcodes/products_categories.php
+theme/assets/js/unminified/yit/jquery.layout.js
+theme/assets/js/yit/jquery.layout.js
+theme/assets/js/quick-view.js
+theme/assets/js/unminified/quick-view.js
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+woocommerce/cart/shipping-calculator.php
+woocommerce/single-product/product-attributes.php
+theme/templates/sliders/parallax/slider.php
+
+
+
+------------------ VER 1.2.3 - Released on Feb 24, 2014 -----------------
+Fixed: 'yit' Text domain
+Fixed: link to edit shipping/billing page
+Fixed: Newsletter Form style
+
+UPDATED
+style.css
+woocommerce/myaccount/my-address.php
+core/yit/CPT_Unlimited.php
+theme/templates/shortcodes/review_slider.php
+theme/widgets/YIT_Widget_Best_Sellers.php
+theme/widgets/yit_recent_reviews.php
+theme/woocommerce.php
+woocommerce/admin/custom-onsale.php
+woocommerce/cart/cart-shipping.php
+woocommerce/cart/cart-totals.php
+woocommerce/checkout/form-shipping.php
+woocommerce/checkout/review-order.php
+woocommerce/global/breadcrumb.php
+woocommerce/myaccount/form-change-password.php
+woocommerce/myaccount/form-login.php
+woocommerce/single-product/add-to-cart/quantity.php
+woocommerce/single-product/add-to-cart/variable-wccl.php
+woocommerce/single-product/add-to-cart/variable.php
+woocommerce/single-product/product-attributes.php
+woocommerce/single-product/review.php
+woocommerce/single-product/up-sells.php
+woocommerce/single-product-reviews.php
+woocommerce_2.0.x/admin/custom-onsale.php
+woocommerce_2.0.x/myaccount/form-change-password.php
+woocommerce_2.0.x/myaccount/form-login.php
+woocommerce_2.0.x/shop/breadcrumb.php
+woocommerce_2.0.x/single-product/add-to-cart/grouped.php
+woocommerce_2.0.x/single-product/add-to-cart/quantity.php
+woocommerce_2.0.x/single-product/add-to-cart/simple.php
+woocommerce_2.0.x/single-product/add-to-cart/variable-wccl.php
+woocommerce_2.0.x/single-product/add-to-cart/variable.php
+woocommerce_2.0.x/single-product/product-attributes.php
+woocommerce_2.0.x/single-product/review.php
+woocommerce_2.0.x/single-product/up-sells.php
+
+------------------ VER 1.2.2 - Released on Feb 20, 2014 -----------------
+Fixed: Wrong Theme Version
+Fixed: Newsletter shortcodes style
+Fixed: Wrong style on Shipping to billing address label in checkout page (WooCommerce 2.1.x)
+Fixed: State/Country fields in Shippig Calculator box on Cart page
+
+UPDATED
+theme/assets/css/contact_form.css
+theme/assets/js/contact.js
+theme/assets/js/devbridge-jquery-autocomplete.js
+theme/assets/js/idangerous.swiper.js
+theme/assets/js/jquery.easing.js
+theme/assets/js/jquery.quicksand.js
+theme/assets/js/jquery.sticky.js
+theme/assets/js/metabox_nav_menu.js
+theme/assets/js/quick-view.js
+theme/assets/js/swiper.product-slider.js
+theme/assets/js/unminified/contact.js
+theme/assets/js/unminified/devbridge-jquery-autocomplete.js
+theme/assets/js/unminified/idangerous.swiper.js
+theme/assets/js/unminified/jquery.quicksand.js
+theme/assets/js/unminified/jquery.sticky.js
+theme/assets/js/unminified/metabox_nav_menu.js
+theme/assets/js/unminified/quick-view.js
+theme/assets/js/unminified/swiper.product-slider.js
+theme/assets/js/unminified/widgets.js
+theme/assets/js/unminified/woocommerce-admin.js
+theme/assets/js/unminified/yit/jquery.contact-popup.js
+theme/assets/js/unminified/yit/jquery.layout.js
+theme/assets/js/unminified/yit/jquery.yit_checkout.js
+theme/assets/js/widgets.js
+theme/assets/js/woocommerce-admin.js
+theme/assets/js/yit/jquery.yit_checkout.js
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+tyrion-child/style.css
+woocommerce/cart/shipping-calculator.php
+woocommerce/checkout/form-shipping.php
+woocommerce/style.css
+style.css
+
+------------------ VER 1.2.1 - Released on Feb 19, 2014 -----------------
+Fixed: Wrong CSS style from child theme on WooCommerce 2.0.x
+Fixed: Wrong template version on WooCommerce 2.1.x
+Fixed: Login and Register form on Checkout
+Fixed: Parallax Overflow in Boxed View
+
+UPDATED:
+ChangeLog.txt
+theme/woocommerce.php
+style.css
+woocommerce_2.0.x/style.css
+theme/yit/Submenu/Tabs/Theme_option/Colors_Buttons.php
+woocommerce/checkout/form-login.php
+woocommerce/checkout/form-register.php
+woocommerce/style.css
+woocommerce_2.0.x/checkout/form-login.php
+woocommerce/checkout/form-shipping.php
+woocommerce/myaccount/form-login.php
+
+
+------------------ VER 1.2.0 - Released on Feb 13, 2014 -----------------
+Added: Compatibility to Woocommerce 2.1.1
+Fixed: Languages Issues
+Fixed: Lost password missing field
+Added: Italian Traduction ( thanks to pescamo.it )
+Added: Testimonial slider title option
+
+UPDATED:
+core/assets/css/panel.css
+core/templates/admin/panel/notifier.php
+core/yit/Notifier.php
+core/functions-core.php
+theme/woocommerce.php
+ChangeLog.txt
+tyrion-child/woocommerce_2.0.x
+tyrion-child/woocommerce_2.0.x/style.css
+core/yit/Submenu/Tabs/Backup/Sampledata_Install.php
+theme/assets/sample-data/tyrion.gz
+theme/config.php
+woocommerce/global/sidebar.php
+woocommerce/style.css
+theme/assets/sample-data/tyrion_woo_2.0.x.gz
+theme/assets/css/shortcodes.css
+css/responsive.css
+theme/assets/css/widgets.css
+theme/panel/theme-options/typography-footer.php
+theme/panel/theme-options/typography-sidebar.php
+style.css
+my-account.php
+theme/assets/js/woocommerce-admin.js
+theme/assets/js/woocommerce.js
+theme/assets/js/unminified/woocommerce.js
+woocommerce_2.0.x/*.*
+woocommerce/*.*
+theme/shortcodes.php
+theme/templates/shortcodes/testimonials_slider.php
+theme/templates/header/slogan.php
+theme/templates/sliders/parallax/slider.php
+
+------------------ VER 1.1.1 - Released on Jan 15, 2014 -----------------
+Added: Product slider autoplay option
+Added: Big Buttons Shortcode
+Fixed: Shortcodes product_categories and product_categories_slider order options
+Fixed: Wrong style on Shop page with category
+Fixed: Megamenu external custom images
+Fixed: Shipping calculate and Coupon removed toggle
+
+
+UPDATED:
+core/lib/yit/Walker/Walker_Nav_Menu.php
+theme/templates/blog/big/css/style.css
+theme/templates/blog/small-image/css/style.css
+ChangeLog.txt
+theme/templates/sliders/parallax/slider.php
+woocommerce/content-product_cat.php
+theme/templates/shortcodes/products_categories.php
+theme/templates/shortcodes/products_categories_slider.php
+theme/assets/css/shortcodes.css
+theme/shortcodes.php
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+theme/templates/shortcodes/products_slider.php
+theme/shortcodes-woocommerce.php
+woocommerce/single-product/price.php
+
+------------------ VER 1.1.0 ---------------
+Added: Compatibility to WordPress 3.8
+Added: YITH WooCommerce Hide Price Plugin
+Added: support to FB Connect free plugin and integrated with the theme
+Fixed: Google Rich Snippets
+Fixed: Prev/Next button in Single Product page with quick view disabled
+Fixed: option to show the share in the product detail page.
+Removed: Unavailable options "Link or Button" from YITH WooCommerce Compare
+
+UPDATED:
+ChangeLog.txt
+languages/default.po
+languages/yit.pot
+style.css
+tyrion-child/style.css
+woocommerce/style.css
+core/assets/css/tinymce.css
+woocommerce/single-product/rating.php
+woocommerce/single-product/review.php
+my-account.php
+theme/assets/images/fblogin_bg.png
+theme/assets/images/fblogin_icon.png
+theme/assets/images/fblogin_icon2.png
+theme/plugins.php
+theme/yit/Splash.php
+woocommerce/myaccount/form-login.php
+woocommerce/myaccount/my-address.php
+theme/plugins/yith-woocommerce-hide-price.zip
+core/yit/CPT_Unlimited.php
+core/yit/Faq.php
+core/yit/Services.php
+core/yit/Testimonial.php
+theme/yit/Faq.php
+theme/yit/Logo.php
+woocommerce/single-product/close-quick-view.php
+cache/google_fonts.json
+theme/woocommerce.php
+core/assets/css/metaboxes.css
+core/assets/css/panel.css
+core/lib/yit/Type/Types/Select.php
+core/yit/Splash.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_details_page.php
+
+------------------ VER 1.0.2 ---------------
+Added: Prev/Next button in Product Single template
+Updated: improved speed in images loading
+Fixed: Reset Navigation CSS
+Fixed: Bugs at mobile resolution
+
+UPDATED:
+core/assets/css/responsive.css
+core/lib/yit/Type/Types/Bgpreview.php
+core/yit/Css.php
+core/yit/Image.php
+css/responsive.css
+theme/woocommerce.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_details_page.php
+theme/templates/header/slider.php
+theme/widgets/text_image.php
+theme/yit/Popup.php
+theme/assets/css/contact_form.css
+theme/plugins/yith-woocommerce-colors-labels-variations.zip
+woocommerce/single-product/close-quick-view.php
+woocommerce/style.css
+woocommerce/images/single_product_arrow.png
+style.css
+
+
+------------------ VER 1.0.1 ---------------
+Fixed: Wrong URLs and names in child theme folder
+Fixed: Added to cart message disappear on quick view when opened a new product
+Fixed: Selected filter lose background color
+
+------------------ VER 1.0.0 ---------------
+Initial Release
