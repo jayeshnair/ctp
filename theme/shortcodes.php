@@ -979,7 +979,7 @@ if( !function_exists( 'add_shortcodes_theme_css' ) ) {
 	function add_shortcodes_theme_css(){
 		$url = YIT_THEME_ASSETS_URL . '/css/shortcodes.css';
 	    //wp_register_style('shortcodes_theme_css', $url);
-	    yit_enqueue_style(1201, 'shortcodes_theme_css', $url);	
+	    //yit_enqueue_style(1201, 'shortcodes_theme_css', $url);	
 	}
 }
 

@@ -62,7 +62,7 @@ wc_print_notices();
                                             echo $thumbnail;
                                         }
                                         else {
-                                            printf( '<a href="%s">%s</a>', $_product->get_permalink(), $thumbnail );
+                                            printf( '%s', $thumbnail );
                                         }
                                         ?>
                                     </div>

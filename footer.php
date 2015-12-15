@@ -38,7 +38,7 @@
 <li> <a href="http://clicktoprint.in/visiting-cards/economy-visiting-cards/"> Visiting Cards </a> </li>
 </div>
 <div class="columntwo">
-<p> <a href="http://clicktoprint.in/visiting-cards/economy-visiting-cards/"> Visiting Cards </a> </p>
+<p> <a href="http://clicktoprint.in/visiting-cards/economy-visiting-cards/"> VISITING CARDS </a> </p>
 <li> <a href="http://clicktoprint.in/visiting-cards/economy-visiting-cards/">Economy Visiting Cards</a> </li>
 <li> <a href="http://clicktoprint.in/visiting-cards/premium-visiting-cards/">Premium Visiting Cards</a> </li>
 <li> <a href="http://clicktoprint.in/visiting-cards/rounded-corner-visiting-cards/">Rounded Corner Visiting Cards</a> </li>
@@ -70,17 +70,13 @@
 <li> <a href="http://clicktoprint.in/posters/">Posters </a> </li>
 </div>
 <div class="columnsix">
-<p> <a href="http://clicktoprint.in/contact-us/">Contact us</a> </p>
+<p> <a href="http://clicktoprint.in/contact-us/">CONTACT US</a> </p>
 <li> <a href="http://clicktoprint.in/faqs/">FAQ</a> </li>
 <li> <a href="http://clicktoprint.in/privacy-policy/">Privacy Policy</a> </li>
 <li> <a href="http://clicktoprint.in/terms-conditions/">Terms and conditions</a> </li>
 </div>
-<div class="clear"> &nbsp;</div>
-<div class="secondcolumnone"> 
-<span> © COPYRIGHT 2015. <a href="http://clicktoprint.in/" style="color:#0088cf !important">CLICKTOPRINT.IN</a> </span> </div>
-<div class="secondcolumntwo"> 
-<span class="joininputtext"> <input type="text" name="jointext" value="" placeholder="Enter your email for Out newsletter" /> </span>
-<span class="joininputsubmit"> <input type="submit" name="join" value="JOIN" /> </span> </div>
+<div class="clear"> &nbsp; &nbsp;</div>
+<center><span style="color:#ffffff !important"> © COPYRIGHT 2015. <a href="http://clicktoprint.in/" style="color:#0088cf !important">CLICKTOPRINT.IN</a> </span></center> </div>
 			</div>
 			</div>
             
@@ -92,6 +88,12 @@
     <!-- END BG SHADOW -->
     
     <?php wp_footer() ?>
+    <script type="text/javascript">
+        jQuery( document ).ready(function() {
+            //console.log( "ready!" );
+            jQuery( "#content-page p.text-head.active" ).parent().addClass( "active-div" );
+        });
+    </script>
 </body>
 <!-- END BODY -->
 </html>

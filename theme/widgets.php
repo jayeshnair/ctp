@@ -40,6 +40,6 @@ if( !function_exists( 'add_widgets_theme_css' ) ) {
 	function add_widgets_theme_css(){
 		$url = YIT_THEME_ASSETS_URL . '/css/widgets.css';
 	    //wp_register_style('widgets_css', $url);
-	    yit_enqueue_style(1300, 'widgets_theme_css', $url);	
+	    //yit_enqueue_style(1300, 'widgets_theme_css', $url);	
 	}
 }

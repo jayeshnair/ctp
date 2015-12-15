@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
         <div class="empty-button">
             <p>
-                <a class="red-button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>"><?php _e( 'Return To Shop', 'yit' ) ?></a>
+                <a class="red-button" href="<?php echo home_url( '/' ); ?>"><?php _e( 'Return To Shop', 'yit' ) ?></a>
             </p>
         </div>
     </div>

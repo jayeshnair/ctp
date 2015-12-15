@@ -1441,7 +1441,7 @@ p#yit-breadcrumb { font-size:12px; margin-top: 0px; }
 
 div.slogan {border: 1px solid #dbdbdb; border-left-width: 0; border-right-width: 0;}
 .slogan { background-color: transparent; }
-.slogan_container { padding:0; border: 3px solid #f7f7f7; border-left-width: 0; border-right-width: 0;}
+.slogan_container { padding:0; border: 3px solid #f7f7f7; border-left-width: 0; border-right-width: 0; display: none;}
 .slogan h2, .slogan h3 { color: #4d4b4b; text-align: center; }
 .slogan h2 { font-size: 36px; margin-bottom: 0px; margin-top: 0; letter-spacing: -0.9px; postion: relative; font-weight: 800;}
 
@@ -2741,9 +2741,10 @@ ul.page-numbers li{
 .sub-categories .text-content span{color: #00245F !important;font-size: 11px !important}
 .widget_product_categories{background: #E3E5E4 !important;padding: 10px}
 
-.sub-categories {padding-bottom: 20px; border-bottom: solid 1px #eee; position: relative;}
-.sub-categories:after { content:" " ; width: 0; height: 0;  border-left: 20px solid transparent; border-right: 20px solid transparent; border-top: 20px solid #eee;position: absolute;}
-
+.sub-categories {padding-bottom: 20px; border-bottom: solid 1px #eee; position: relative; min-height: 250px;}
+.sub-categories:after { content:" " ; width: 0; height: 0;  border-left: 20px solid transparent; border-right: 20px solid transparent; border-top: 20px solid #eee;position: absolute; bottom: -20px; left: 45%}
+.active-div:after {border-top: 20px solid #00245F;}
+.active-div {border-bottom: solid 1px #00245F;}
 
 #sidebar-default-sidebar{padding: 10px;background: #E3E5E4 !important;}
 .widget_nav_menu ul > li a, .widget_pages ul > li a, .widget_categories ul > li a, .portfolio-categories ul > li a, .widget_archive ul > li a, .widget_links ul > li a

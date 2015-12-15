@@ -149,7 +149,7 @@ a.button:hover, button.button:hover, input.button:hover,
 .the-content-post .post-subtitle { font-size: 17px; font-family: 'Lato', sans-serif; color: #4d4b4b; font-style: normal; font-weight: 400; }
 .the-content-post p { font-size: 14px; font-family: 'Lato', sans-serif; color: #4d4b4b; font-style: normal; font-weight: 400; }
 .post-title:hover, .post-title a:hover, .blog-big .meta .post-title a:hover,
-                            .hentry-post .post-title > a:hover,  .blog-big-image .blog-big-image-content h2 a:hover { color: #ca4b4b; }
+                            .hentry-post .post-title > a:hover,  .blog-big-image .blog-big-image-content h2 a:hover { color: #000000; }
 .blog-small-image-content .meta p a, .blog-pinterest .meta div p a, .blog-big-image .meta p a { color: #000000; }
 .blog-small-image-content .meta p a:hover, .blog-pinterest .meta div p a:hover,  .blog-big-image .meta p a:hover { color: #736e6e; }
 #copyright { background: #ffffff; background-repeat: repeat; background-position: top left; background-attachment: scroll; }

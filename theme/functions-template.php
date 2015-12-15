@@ -22,14 +22,14 @@ if( !function_exists( 'yit_head' ) ) {
 if( !function_exists( 'yit_add_custom_styles' ) ) {
     function yit_add_custom_styles() {        
         if( yit_get_option( 'responsive-enabled' ) ) {
-            yit_enqueue_style( 9994, 'responsive', YIT_CORE_ASSETS_URL . '/css/responsive.css', array(), '1.0.0', 'all' );
-            yit_enqueue_style( 9995, 'theme-responsive', get_template_directory_uri() . '/css/responsive.css', false, '2.0', 'all' );
+            //yit_enqueue_style( 9994, 'responsive', YIT_CORE_ASSETS_URL . '/css/responsive.css', array(), '1.0.0', 'all' );
+            // yit_enqueue_style( 9995, 'theme-responsive', get_template_directory_uri() . '/css/responsive.css', false, '2.0', 'all' );
         }
 
         $custom_css = locate_template( 'custom.css' );
         $custom_css = str_replace( array( get_stylesheet_directory(), get_template_directory() ), array( get_stylesheet_directory_uri(), get_template_directory_uri() ), $custom_css );
         
-        yit_enqueue_style( 99999, 'custom', $custom_css, array(), false, 'all', true );
+        // yit_enqueue_style( 99999, 'custom', $custom_css, array(), false, 'all', true );
     }
 }
 
