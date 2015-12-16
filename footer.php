@@ -93,6 +93,20 @@
             //console.log( "ready!" );
             jQuery( "#content-page p.text-head.active" ).parent().addClass( "active-div" );
         });
+
+        // Rotate
+        jQuery.cards = jQuery('#wonderplugintabs-2 .wonderplugintabs-header-ul li.wonderplugintabs-header-li');
+
+        var time = 8000;
+
+        jQuery.cards.each(function() {
+            setTimeout( function() { 
+                jQuery(this).find('a').trigger( "click" ); 
+                console.log('click');
+            }, time)
+            
+        });
+
     </script>
 </body>
 <!-- END BODY -->
