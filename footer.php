@@ -89,23 +89,29 @@
     
     <?php wp_footer() ?>
     <script type="text/javascript">
+    var time = 5000;
         jQuery( document ).ready(function() {
             //console.log( "ready!" );
             jQuery( "#content-page p.text-head.active" ).parent().addClass( "active-div" );
+
+            function slideAnim() {
+                if(!jQuery('#wonderplugintabs-2 .wonderplugintabs-header-ul .wonderplugintabs-header-li-active').is(':last-child')) {
+                    jQuery('#wonderplugintabs-2 .wonderplugintabs-header-ul .wonderplugintabs-header-li-active').next().trigger('click');
+                }
+                else{
+                     jQuery('#wonderplugintabs-2 .wonderplugintabs-header-ul li:first').trigger('click');
+                }
+
+                
+            }
+
+            window.setInterval(slideAnim, time);
         });
 
         // Rotate
-        jQuery.cards = jQuery('#wonderplugintabs-2 .wonderplugintabs-header-ul li.wonderplugintabs-header-li');
+        
+        
 
-        var time = 8000;
-
-        jQuery.cards.each(function() {
-            setTimeout( function() { 
-                jQuery(this).find('a').trigger( "click" ); 
-                console.log('click');
-            }, time)
-            
-        });
 
     </script>
 </body>
